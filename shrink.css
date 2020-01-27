@@ -1,8 +1,8 @@
 
  button {
-    color: rgb(49, 144, 212);
-    background-color: rgb(15, 42, 161);
-    border: 1px solid #1D9AF2;
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 127, 190);
+    border: 1px solid rgb(54, 161, 238);
     border-radius: 4px;
     padding: 0 15px;
     cursor: pointer;
