@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("background.jpg");
+    background-image: url("image/background.jpg");
     background-repeat: no-repeat;
 
   }
@@ -12,7 +12,7 @@ body {
   
   p {
     text-indent: 20pt;
-    text-align: center;
+    text-align: left;
     font-family: Helvetica;
     font-size: 18px;
   }
