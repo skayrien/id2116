@@ -11,7 +11,9 @@ body {
   }
   
   p {
+    text-indent: 20pt;
+    text-align: center;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 18px;
   }
   
