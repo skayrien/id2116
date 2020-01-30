@@ -1,6 +1,8 @@
 
 body {
-    background-color: #DDF2EB;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+
   }
   
   h1 {
