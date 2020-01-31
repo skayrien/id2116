@@ -9,14 +9,12 @@ body {
   h1 {
     color: seashell;
     text-align: left;
-    text-align-last: center;
     text-shadow: skyblue;
   }
   
   p {
     text-indent: 50pt;
     text-align: left;
-    text-align-last: center;
     font-family: Helvetica;
     font-size: 18px;
     color: seashell;
@@ -26,7 +24,6 @@ body {
   h3 {
     text-indent: 50pt;
     text-align: left;
-    text-align-last: center;
     font-family: Helvetica;
     font-size: 18px;
     color: seashell;
@@ -36,7 +33,6 @@ body {
   h2 {
     text-indent: 50pt;
     text-align: left;
-    text-align-last: center;
     font-family: Helvetica;
     font-size: 18px;
     color: seashell;
@@ -45,7 +41,6 @@ body {
 
   li {
     text-align: left;
-    text-align-last: center;
     font-family: Helvetica;
     font-size: 18px;
     color: seashell;
