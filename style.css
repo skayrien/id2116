@@ -42,3 +42,13 @@ body {
     color: seashell;
     font-weight: 300;
   }
+
+  li {
+    text-indent: 20pt;
+    text-align: justify;
+    text-align-last: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: seashell;
+    font-weight: 300;
+  }
