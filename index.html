@@ -49,3 +49,23 @@
 
 </html>
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="myImage" onclick="changeImage()" src="backgroundday.jpg" width="100" height="180">
+
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "background.jpg";
+  } else {
+    image.src = "backgroundday.jpg";
+  }
+}
+</script>
+
+</body>
+</html>
