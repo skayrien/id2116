@@ -14,7 +14,7 @@ body {
   }
   
   p {
-    text-indent: 20pt;
+    text-indent: 50pt;
     text-align: justify;
     text-align-last: center;
     font-family: Helvetica;
@@ -24,7 +24,7 @@ body {
   }
 
   h3 {
-    text-indent: 20pt;
+    text-indent: 50pt;
     text-align: justify;
     text-align-last: center;
     font-family: Helvetica;
@@ -34,7 +34,7 @@ body {
   }
 
   h2 {
-    text-indent: 20pt;
+    text-indent: 50pt;
     text-align: justify;
     text-align-last: center;
     font-family: Helvetica;
@@ -43,8 +43,7 @@ body {
     font-weight: 300;
   }
 
-  ul {
-    text-indent: 20pt;
+  li {
     text-align: justify;
     text-align-last: center;
     font-family: Helvetica;
