@@ -19,4 +19,21 @@ body {
     color: seashell;
     font-weight: 300;
   }
-  
+
+  h3 {
+    text-indent: 20pt;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: seashell;
+    font-weight: 300;
+  }
+
+  h2 {
+    text-indent: 20pt;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: seashell;
+    font-weight: 300;
+  }
