@@ -45,9 +45,9 @@ function draw() {
   }
     
   if(brightness == 1){
-   image(playImage,width/2,height/2);
+   image(playImage,width/2,height/2,900,600);
   }else{
-   image(stopImage,width/2,height/2);
+   image(stopImage,width/2,height/2,900,600);
   }
   
 }
