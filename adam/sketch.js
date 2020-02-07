@@ -18,7 +18,7 @@ function preload(){
 }
 
 function setup() {
-  cnv=createCanvas(450, 300);
+  cnv=createCanvas(900, 600);
   amplitude = new p5.Amplitude();
   
   playImage = loadImage("image/adamsinging.png");
@@ -41,9 +41,9 @@ function draw() {
   }
     
   if(brightness == 1){
-   image(playImage,width/2,height/2,450,300);
+   image(playImage,width/2,height/2,900,600);
   }else{
-   image(stopImage,width/2,height/2,450,300);
+   image(stopImage,width/2,height/2,900,600);
   }
   
 }
