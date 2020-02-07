@@ -4,6 +4,9 @@ let playing = 0;
 
 let brightness = 0;
 
+let level;
+let size;
+
 let playImage; // adam levine mouth open
 let stopImage; // adam levine mouth closed
 
@@ -15,8 +18,8 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(450, 300);
-
+  cnv=createCanvas(450, 300);
+  amplitude = new p5.Amplitude();
   
   playImage = loadImage("image/adamsinging.png");
   stopImage = loadImage("image/adamnotsinging.png");
@@ -28,6 +31,15 @@ function setup() {
 function draw() {
   background(220);
   imageMode(CENTER);
+  let level = amplitude.getLevel();
+  let size = map(level, 0, 1, 0, 200);
+  if (size <12) {
+    brightness = 0
+  }else{
+    brightness = 1
+    
+  }
+    
   if(brightness == 1){
    image(playImage,width/2,height/2,450,300);
   }else{
