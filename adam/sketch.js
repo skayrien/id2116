@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(100);
   imageMode(CENTER);
   let level = amplitude.getLevel();
   let size = map(level, 0, 1, 0, 200);
