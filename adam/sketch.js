@@ -30,9 +30,10 @@ function setup() {
 
 function draw() {
   background(100);
+  if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 100) {
   let fs = fullscreen();
   fullscreen(!fs);
-  
+  }
   imageMode(CENTER);
   let level = amplitude.getLevel();
   let size = map(level, 0, 1, 0, 200);
