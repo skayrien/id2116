@@ -37,10 +37,10 @@ function draw() {
 }
 
 function mousePressed() {
-  if (playing === 0) {
-    play(); 
+  if (song.isPlaying()) {
+    song.pause(); 
   } else {
-    stop();
+    song.play();
   }
      if(brightness === 0) {
     on();
@@ -56,11 +56,11 @@ function play(){
   song.play();
 }
 
-function stop(){
+function pause(){
   playing = 0; 
   
   
-  song.stop();
+  song.pause();
   bgImage = stopImage;
 }
 //function touchStarted(){
