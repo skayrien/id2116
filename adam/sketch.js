@@ -79,7 +79,6 @@ function pause(){
   
   
   song.pause();
-  
   bgImage = stopImage;
 }
 //function touchStarted(){
@@ -88,7 +87,7 @@ function pause(){
 
 //function touchEnded(){
   //on();
-
+//}
 
 
 
